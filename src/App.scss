@@ -1,0 +1,27 @@
+// @import './scss/bootstrap';
+@import './scss/Auth';
+// @import 'react-toastify/disk/ReactToastify.css';
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+body{
+  background-color: black;
+}
+main{
+    flex: 1 0 auto;
+}
+
+
+//todo
+.header{
+  background-color: yellow;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+input[type="text"] {
+  padding: 10px;
+  margin-right: 5px;
+}

@@ -1,0 +1,11 @@
+.auth{
+    display: flex;
+    background-color: $primary;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .card{
+        margin: 0 auto;
+        max-width: 450px;
+    }
+}
